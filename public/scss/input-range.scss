@@ -1,0 +1,67 @@
+@import "var.scss";
+
+@mixin input-range($selector, $range-width, $range-height: 16px, $thumb-size: 24px, $background-color: #333333, $thumb-color: #ffffff) {
+    $thumb-width: $thumb-size;
+    $thumb-height: $thumb-size;
+    $thumb-shadow: 0px 0px 4px #000000bb;
+    $thumb-border-radius: $thumb-size;
+    $margin: 2px 0;
+
+    #{$selector} {
+        width: $range-width;
+        height: $range-height;
+        margin: $margin;
+        background-color: transparent;
+        -webkit-appearance: none;
+    }
+
+    #{$selector}:focus {
+        outline: none;
+        box-shadow: 0px 0px 8px #ffffff88;
+        border-radius: $range-height;
+    }
+
+    #{$selector}:focus::-webkit-slider-runnable-track {
+        background: $background-color;
+    }
+
+    #{$selector}::-webkit-slider-runnable-track {
+        background: $background-color;
+        border: 0;
+        border-radius: $range-height;
+        width: $range-width;
+        height: $range-height;
+        cursor: pointer;
+    }
+
+    #{$selector}::-moz-range-track {
+        background: $background-color;
+        border: 0;
+        border-radius: $range-height;
+        width: $range-width;
+        height: $range-height;
+        cursor: pointer;
+    }
+
+    #{$selector}::-webkit-slider-thumb {
+        margin-top: calc(($thumb-size - $range-height) / -2);
+        width: $thumb-width;
+        height: $thumb-height;
+        background: $thumb-color;
+        border: 0;
+        border-radius: $thumb-border-radius;
+        cursor: pointer;
+        box-shadow: $thumb-shadow;
+        -webkit-appearance: none;
+    }
+
+    #{$selector}::-moz-range-thumb {
+        width: $thumb-width;
+        height: $thumb-height;
+        background: $thumb-color;
+        border: 0;
+        border-radius: $thumb-border-radius;
+        cursor: pointer;
+        box-shadow: $thumb-shadow;
+    }
+}

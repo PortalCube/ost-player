@@ -1,0 +1,46 @@
+{
+    "id": "TSPUD",
+    "info": {
+        "title": "The Stanley Parable: Ultra Deluxe",
+        "short_title": "TSPUD",
+        "description": "스탠리는 TSPUD의 사운드트랙에 감명받았답니다. 이제 그는 사운드트랙을 다시 한번 들어보기로 결정했습니다."
+    },
+    "screen": {
+        "width": 1280,
+        "height": 720
+    },
+    "image": {
+        "default": "https://storage.prisism.io/lab/ost-player/tspud/ud_screenshot1.jpg",
+        "album": "https://storage.prisism.io/lab/ost-player/tspud/ud_screenshot1.jpg"
+    },
+    "playlist": [
+        {
+            "id": "recommend",
+            "name": "추천",
+            "description": "뭐!? \"추천곡\"?? 세상에, 어느 멍청한 놈이 이런 쓸데없는걸 만들었을까요!? 여깄는 모든 노래가 추천곡인데 말이죠!",
+            "isSelect": true
+        },
+        {
+            "id": "original",
+            "name": "오리지널",
+            "description": "때로는 구관이 명관이라죠. 10년 묵은 노래지만 들어볼 가치는 있답니다."
+        },
+        {
+            "id": "sequel",
+            "name": "속편",
+            "description": "\"The Stanley Parable 12: 스탠리의 사악한 음모\"의 멋진 사운드트랙이랍니다."
+        },
+        {
+            "id": "sequel",
+            "name": "양동이",
+            "description": "스탠리는 양동이를 머리에 쓰고선 양동이 플레이어로 양동이에 대한 노래를 듣고 있습니다. 멋지네요."
+        },
+        {
+            "id": "all",
+            "name": "전체",
+            "description": "THE END IS NEVER THE END IS NEVER THE END..."
+        }
+    ],
+    "musicBaseUrl": "https://storage.prisism.io/lab/ost-player/tspud/",
+    "imageBaseUrl": "https://storage.prisism.io/lab/ost-player/tspud/"
+}

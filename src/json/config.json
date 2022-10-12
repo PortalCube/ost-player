@@ -1,0 +1,45 @@
+{
+    "id": "shinycolors_bgm",
+    "info": {
+        "title": "아이돌마스터 샤이니 컬러즈 OST",
+        "description": "아이돌마스터 샤이니 컬러즈의 커뮤 브금을 모았습니다."
+    },
+    "screen": {
+        "width": 1136,
+        "height": 640
+    },
+    "image": {
+        "default": "https://storage.prisism.io/sc/images/event/bg/00001.jpg",
+        "album": "https://storage.prisism.io/sc/images/content/music/jacket/0000.jpg"
+    },
+    "playlist": [
+        {
+            "id": "emoi",
+            "name": "Emoi",
+            "description": "에모이한 노래 위주로 재생합니다.",
+            "isSelect": true
+        },
+        {
+            "id": "game",
+            "name": "Game",
+            "description": "게임 메뉴 노래 위주로 재생합니다."
+        },
+        {
+            "id": "bright",
+            "name": "Bright",
+            "description": "밝은 분위기의 노래 위주로 재생합니다."
+        },
+        {
+            "id": "dark",
+            "name": "Dark",
+            "description": "어두운 분위기의 노래 위주로 재생합니다."
+        },
+        {
+            "id": "all",
+            "name": "All",
+            "description": "게임에 수록된 모든 노래를 재생합니다."
+        }
+    ],
+    "musicBaseUrl": "https://storage.prisism.io/sc/",
+    "imageBaseUrl": "https://storage.prisism.io/sc/"
+}

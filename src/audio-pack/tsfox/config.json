@@ -1,0 +1,51 @@
+{
+    "id": "TSFOX",
+    "info": {
+        "title": "당신을 기다리는 여우 시리즈",
+        "short_title": "당기여",
+        "description": ""
+    },
+    "screen": {
+        "width": 1280,
+        "height": 720
+    },
+    "image": {
+        "default": "https://storage.prisism.io/lab/ost-player/fox/image/여-COVER.webp",
+        "album": "https://storage.prisism.io/lab/ost-player/fox/image/여-COVER.webp"
+    },
+    "playlist": [
+        {
+            "id": "sweet",
+            "name": "달콤가득 컬렉션",
+            "description": "도련님과.. 소녀의 즐거운 시간을 담은 노래들이랍니다♥"
+        },
+        {
+            "id": "sua",
+            "name": "수아 컬렉션",
+            "description": "수아아앗! 저의 노래를 선택해주셨군요? 소녀는 기쁘답니다~"
+        },
+        {
+            "id": "yuhwa",
+            "name": "유화 컬렉션",
+            "description": "따.. 딱히 기쁜건 아니니까 인간아!"
+        },
+        {
+            "id": "mimiru",
+            "name": "미미르 컬렉션",
+            "description": "도령~ 내 컬렉션은 비싸다구~ 대가는 각오하고 있지?"
+        },
+        {
+            "id": "reaper",
+            "name": "아린&선배 컬렉션",
+            "description": "자.. 잠깐! 왜 이것만 2개가 합쳐진건데! 갯수도 제일 적어!?"
+        },
+        {
+            "id": "all",
+            "name": "전체",
+            "description": "도련니임~ 역시, 모두가 함께하는게 제일 즐거운 것 같아요!",
+            "isSelect": true
+        }
+    ],
+    "musicBaseUrl": "https://storage.prisism.io/lab/ost-player/fox/",
+    "imageBaseUrl": "https://storage.prisism.io/lab/ost-player/fox/image/"
+}

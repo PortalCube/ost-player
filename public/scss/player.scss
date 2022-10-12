@@ -1,0 +1,123 @@
+@import "var.scss";
+@import "input-range.scss";
+
+.player {
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 1280px;
+    height: 720px;
+
+    justify-content: start;
+
+    // background-color: #00000088;
+    background: linear-gradient(#000000ee 0%, #00000066 50%, #00000000 80%);
+    // -webkit-backdrop-filter: blur(2.4px);
+    // backdrop-filter: blur(2.4px);
+
+    flex-direction: column;
+
+    transition: opacity 0.2s;
+}
+
+.player:not(.visible) {
+    opacity: 0;
+}
+
+.button-group {
+    display: flex;
+    flex-basis: 70px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.material-icons {
+    font-size: 96px;
+}
+
+.material-icons.sm {
+    font-size: 64px;
+}
+
+.material-icons.pink {
+    color: #c52c2c;
+}
+.material-icons.gray {
+    color: #222222;
+}
+
+button {
+    background: none;
+    border: none;
+    // border-radius: 24px;
+    width: 128px;
+    height: 128px;
+    padding: 11px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.play-button,
+.next-button,
+.prev-button {
+    padding: 1px;
+}
+
+button:hover,
+button:focus {
+    outline: 0;
+    background-color: #ffffff44;
+}
+
+.range-group {
+    display: flex;
+    flex-basis: 30px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// input-range.scss
+// @include input-range($selector: ".volume-range", $range-width: 160px);
+@include input-range($selector: ".volume-range", $range-width: 400px);
+
+@media screen and (max-width: $small-screen) {
+    .player {
+        width: 100%;
+        height: 90px;
+    }
+
+    .button-group {
+        flex-basis: 30px;
+    }
+
+    .material-icons {
+        font-size: 38px;
+    }
+    
+    .material-icons.sm {
+        font-size: 28px;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+
+    .range-group {
+        margin-top: 10px;
+    }
+
+    .setting-button {
+        margin-left: 24px;
+    }
+    .like-button {
+        margin-right: 24px;
+    }
+}

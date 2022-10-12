@@ -1,0 +1,352 @@
+[
+    {
+        "url": "여-01. Dear. Sua.mp3",
+        "title": "Dear. Sua",
+        "bg": "여-1.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sweet", "sua"],
+        "duration": 111.8563,
+        "replayGain": -4.8
+    },
+    {
+        "url": "여-02. Dear. Mimiru.mp3",
+        "title": "Dear. Mimiru",
+        "bg": "여-2.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["mimiru"],
+        "duration": 168.5681,
+        "replayGain": -4.94
+    },
+    {
+        "url": "여-03. Dear. Arin.mp3",
+        "title": "Dear. Arin",
+        "bg": "화-3.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper", "sweet"],
+        "duration": 156.16,
+        "replayGain": -3.69
+    },
+    {
+        "url": "여-04. 깊은숲.mp3",
+        "title": "깊은숲",
+        "bg": "화-3.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa", "mimiru"],
+        "duration": 151.2751,
+        "replayGain": -5.8
+    },
+    {
+        "url": "여-05. 대나무숲.mp3",
+        "title": "대나무숲",
+        "bg": "여-11.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "mimiru", "sweet"],
+        "duration": 124.7346,
+        "replayGain": -5.52
+    },
+    {
+        "url": "여-06. Sunnyside.mp3",
+        "title": "Sunnyside",
+        "bg": "여-11.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["mimiru", "sweet"],
+        "duration": 128.0522,
+        "replayGain": -4.6
+    },
+    {
+        "url": "여-07. 사슴벌레칩.mp3",
+        "title": "사슴벌레칩",
+        "bg": "여-5.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper", "mimiru", "sweet"],
+        "duration": 86.8048,
+        "replayGain": -3.38
+    },
+    {
+        "url": "여-08. 여우의 다이어리.mp3",
+        "title": "여우의 다이어리",
+        "bg": "여-6.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa", "sweet"],
+        "duration": 103.3926,
+        "replayGain": -6.34
+    },
+    {
+        "url": "여-09. 알 수 없는 마을.mp3",
+        "title": "알 수 없는 마을",
+        "bg": "여-4.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa"],
+        "duration": 100.9632,
+        "replayGain": -4.49
+    },
+    {
+        "url": "여-10. 사슴벌레왈츠.mp3",
+        "title": "사슴벌레왈츠",
+        "bg": "여-9.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa", "reaper"],
+        "duration": 106.4751,
+        "replayGain": -4.98
+    },
+    {
+        "url": "여-11. Brave Heart.mp3",
+        "title": "Brave Heart",
+        "bg": "여-10.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper", "mimiru"],
+        "duration": 112.0391,
+        "replayGain": -7.43
+    },
+    {
+        "url": "여-12. Misty.mp3",
+        "title": "Misty",
+        "bg": "화-4.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "mimiru", "sweet"],
+        "duration": 134.5567,
+        "replayGain": -3.2
+    },
+    {
+        "url": "여-13. Mystic.mp3",
+        "title": "Mystic",
+        "bg": "여-12.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "sweet"],
+        "duration": 111.0465,
+        "replayGain": -3.54
+    },
+    {
+        "url": "여-14. Shady Tail.mp3",
+        "title": "Shady Tail",
+        "bg": "여-9.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "reaper"],
+        "duration": 123.4546,
+        "replayGain": -2.8
+    },
+    {
+        "url": "여-15. 폐허의 숲.mp3",
+        "title": "폐허의 숲",
+        "bg": "화-8.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa"],
+        "duration": 105.0383,
+        "replayGain": -4.83
+    },
+    {
+        "url": "여-16. Showdown.mp3",
+        "title": "Showdown",
+        "bg": "여-10.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper", "mimiru"],
+        "duration": 96.0261,
+        "replayGain": -9.86
+    },
+    {
+        "url": "여-17. Battlefield.mp3",
+        "title": "Battlefield",
+        "bg": "여-4.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper"],
+        "duration": 96.0261,
+        "replayGain": -6.54
+    },
+    {
+        "url": "여-18. Last moment.mp3",
+        "title": "Last moment",
+        "bg": "화-7.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper"],
+        "duration": 83.0171,
+        "replayGain": -7.1
+    },
+    {
+        "url": "여-19. Sentimental cry.mp3",
+        "title": "Sentimental cry",
+        "bg": "여-3.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "sweet"],
+        "duration": 185.3648,
+        "replayGain": -4.69
+    },
+    {
+        "url": "여-20. 여우비 (Piano Ver.).mp3",
+        "title": "여우비 (Piano Ver.)",
+        "bg": "여-4.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa", "sweet"],
+        "duration": 127.1902,
+        "replayGain": -4.89
+    },
+    {
+        "url": "여-21. 여우비 (Orchestra Ver.).mp3",
+        "title": "여우비 (Orchestra Ver.)",
+        "bg": "여-6.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa", "sweet"],
+        "duration": 82.4424,
+        "replayGain": -6.53
+    },
+    {
+        "url": "여-22. MEDETASHI.mp3",
+        "title": "MEDETASHI",
+        "bg": "여-7.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "mimiru"],
+        "duration": 97.3844,
+        "replayGain": -5.8
+    },
+    {
+        "url": "여-23. 맑은그날.mp3",
+        "title": "맑은그날",
+        "bg": "여-5.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper", "mimiru", "sweet"],
+        "duration": 61.8057,
+        "replayGain": -8.3
+    },
+    {
+        "url": "여-24. COIN PICKUP SUA.mp3",
+        "title": "COIN PICKUP SUA",
+        "bg": "여-12.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "sweet"],
+        "duration": 54.9093,
+        "replayGain": -5.78
+    },
+    {
+        "url": "여-25. 여우의 꿈.mp3",
+        "title": "여우의 꿈",
+        "bg": "여-1.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua"],
+        "duration": 238.2889,
+        "replayGain": -11.03
+    },
+    {
+        "url": "여-26. 여우의 꿈 (Instrumental Ver.).mp3",
+        "title": "여우의 꿈 (Instrumental Ver.)",
+        "bg": "여-1.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 238.2889,
+        "replayGain": -9.91
+    },
+    {
+        "url": "화-01. 아우우우우우~.mp3",
+        "title": "아우우우우우~",
+        "bg": "여-7.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa", "sweet", "mimiru"],
+        "duration": 124.5518,
+        "replayGain": -3.03
+    },
+    {
+        "url": "화-02. 이상적인 언니.mp3",
+        "title": "이상적인 언니",
+        "bg": "화-2.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa"],
+        "duration": 126.4326,
+        "replayGain": -4.16
+    },
+    {
+        "url": "화-03. 이곳은 저승이야!.mp3",
+        "title": "이곳은 저승이야!",
+        "bg": "화-7.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["reaper"],
+        "duration": 64.5485,
+        "replayGain": -2.64
+    },
+    {
+        "url": "화-04. 함께.mp3",
+        "title": "함께",
+        "bg": "화-5.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa", "mimiru"],
+        "duration": 96.1828,
+        "replayGain": -3.35
+    },
+    {
+        "url": "화-05. 무뎌지지 않는.mp3",
+        "title": "무뎌지지 않는",
+        "bg": "화-1.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa"],
+        "duration": 103.5493,
+        "replayGain": -3.5
+    },
+    {
+        "url": "화-06. 환상을 깨고서.mp3",
+        "title": "환상을 깨고서",
+        "bg": "화-5.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa", "mimiru"],
+        "duration": 138.2661,
+        "replayGain": -4.22
+    },
+    {
+        "url": "화-07. 쓸모 없는 여우.mp3",
+        "title": "쓸모 없는 여우",
+        "bg": "화-1.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa"],
+        "duration": 137.404,
+        "replayGain": -2.93
+    },
+    {
+        "url": "화-08. 가족.mp3",
+        "title": "가족",
+        "bg": "화-6.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["sua", "yuhwa"],
+        "duration": 172.1469,
+        "replayGain": -1.64
+    },
+    {
+        "url": "화-12. 설야.mp3",
+        "title": "설야",
+        "bg": "화-6.webp",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": ["yuhwa"],
+        "duration": 276.5322,
+        "replayGain": -5.59
+    }
+]

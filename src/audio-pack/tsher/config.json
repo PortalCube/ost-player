@@ -1,0 +1,26 @@
+{
+    "id": "TSHER",
+    "info": {
+        "title": "그녀의 세계",
+        "short_title": "HERWORLD",
+        "description": "그녀의 세계 OST들입니다."
+    },
+    "screen": {
+        "width": 1280,
+        "height": 720
+    },
+    "image": {
+        "default": "https://storage.prisism.io/lab/ost-player/tsher/image/20.webp",
+        "album": "https://storage.prisism.io/lab/ost-player/tsher/image/23.webp"
+    },
+    "playlist": [
+        {
+            "id": "all",
+            "name": "전체",
+            "description": "",
+            "isSelect": true
+        }
+    ],
+    "musicBaseUrl": "https://storage.prisism.io/lab/ost-player/tsher/",
+    "imageBaseUrl": "https://storage.prisism.io/lab/ost-player/tsher/image/"
+}

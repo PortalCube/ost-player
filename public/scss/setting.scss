@@ -1,0 +1,600 @@
+@import "var.scss";
+@import "input-range.scss";
+
+.wrapper.setting {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    height: -webkit-fill-available;
+    height: fill-available;
+
+    background-color: #00000099;
+
+    display: none;
+    overflow: auto;
+
+    font-family: "Roboto", "Noto Sans KR", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+    transition: opacity 0.2s;
+
+    &.visible {
+        display: block;
+    }
+
+    & > .container {
+        display: none;
+
+        width: 100%;
+        height: 100%;
+        height: -webkit-fill-available;
+        height: fill-available;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        &.visible {
+            display: flex;
+        }
+    }
+}
+
+.wrapper.setting .button {
+    display: flex;
+
+    cursor: pointer;
+
+    background-color: $setting-button-color;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    transition: box-shadow 0.08s;
+
+    &:hover {
+        box-shadow: 0px 0px 12px #ffffff99;
+    }
+}
+
+.wrapper.setting > .container > .footer {
+    position: fixed;
+    display: flex;
+
+    bottom: 30px;
+
+    width: 420px;
+
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 16pt;
+    text-align: center;
+}
+
+.wrapper.setting > .container > .footer > .button {
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+
+    &.large {
+        width: 240px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .wrapper.setting > .container > .footer {
+        width: 260px;
+        font-size: 14pt;
+    }
+
+    .wrapper.setting > .container > .footer > .button {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+
+        &.large {
+            width: 160px;
+            height: 50px;
+        }
+    }
+}
+
+/* -----------------
+메인 메뉴 CSS
+----------------- */
+.container.menu {
+    & > .content {
+
+        display: flex;
+
+        & > .button {
+            
+            width: 240px;
+            height: 150px;
+            margin: 10px;
+
+            flex-shrink: 0;
+
+            & > * {
+                width: 100%;
+                text-align: center;
+            }
+
+            & > .material-icons {
+                font-size: 72px;
+            }
+
+            & > .title {
+                margin: 0;
+                margin-top: 10px;
+                font-size: 14pt;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $large-screen) {
+
+    .wrapper.setting > .container.menu {
+        align-items: start;
+        flex-flow: row nowrap;
+    }
+
+    .wrapper.setting > .container.menu > .content {
+        // min-height: 780px;
+        width: 100%;
+        margin-top: 50px;
+        align-items:center;
+        max-height: calc(100% - 150px);
+        overflow: auto;
+        flex-flow: column nowrap;
+    }
+}
+
+
+/* -----------------
+오디오 팩 CSS
+----------------- */
+.container.audio-pack {
+}
+
+.container.audio-pack > .content {
+    position: fixed;
+    display: flex;
+
+    top: 80px;
+    bottom: 150px;
+
+    width: 720px;
+
+    padding-top: 10px;
+
+    flex-direction: column;
+    align-items: center;
+
+    overflow: auto;
+}
+
+.container.audio-pack > .content > .item {
+    display: flex;
+
+    width: 680px;
+    height: 80px;
+
+    flex-shrink: 0;
+
+    margin-bottom: 24px;
+
+    cursor: pointer;
+
+    background-color: $setting-button-color;
+
+    align-items: center;
+
+    transition: box-shadow 0.08s, background-color 0.2s, color 0.2s;
+
+    &:hover {
+        box-shadow: 0px 0px 12px #ffffff99;
+    }
+}
+
+.container.audio-pack > .content > .item.select {
+    background-color: #e3e3e3;
+    color: #000000;
+
+    & > .info > .description {
+        color: #333333;
+    }
+
+    & > .select {
+        border-color: #000000;
+    }
+}
+
+.container.audio-pack > .content > .item > img {
+    width: 64px;
+    height: 64px;
+
+    margin-left: 20px;
+
+    border-radius: 32px;
+}
+
+.container.audio-pack > .content > .item > .info {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.container.audio-pack > .content > .item > .info > .title {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.container.audio-pack > .content > .item > .info > .description {
+    font-size: 10pt;
+    color: #aaaaaa;
+}
+
+.container.audio-pack > .content > .item > .select {
+    width: 36px;
+    height: 36px;
+
+    display: none;
+
+    margin: 0 20px;
+
+    justify-content: end;
+
+    border: 3px solid #ffffff;
+}
+
+.container.audio-pack > .content > .item > .select > .material-icons {
+    font-size: 36px;
+}
+
+.container.audio-pack > .button {
+    width: 240px;
+    height: 150px;
+    margin: 10px;
+}
+
+@media screen and (max-width: $medium-screen) {
+    .container.audio-pack > .content {
+        width: 460px;
+    }
+
+    .container.audio-pack > .content > .item {
+        width: 440px;
+    }
+
+    .container.audio-pack > .content > .item > .info > .title {
+        font-size: 11pt;
+        // font-weight: 600;
+    }
+
+    .container.audio-pack > .content > .item > .info > .description {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .container.audio-pack > .content {
+        width: 280px;
+    }
+
+    .container.audio-pack > .content > .item {
+        width: 260px;
+    }
+
+    .container.audio-pack > .content > .item > img {
+        display: none;
+    }
+
+    // .container.audio-pack > .content > .item > .info > .title {
+    //     font-size: 11pt;
+    //     // font-weight: 600;
+    // }
+
+    // .container.audio-pack > .content > .item > .info > .description {
+    //     font-size: 9pt;
+    //  }
+}
+
+/* -----------------
+플레이리스트 CSS
+----------------- */
+.container.playlist {
+}
+
+.container.playlist > .content {
+    position: fixed;
+    display: flex;
+
+    top: 80px;
+    bottom: 150px;
+
+    width: 720px;
+
+    padding-top: 10px;
+
+    flex-direction: column;
+    align-items: center;
+
+    overflow: auto;
+}
+
+.container.playlist > .content > .item {
+    display: flex;
+
+    width: 680px;
+    height: 90px;
+
+    padding: 5px 0;
+
+    flex-shrink: 0;
+
+    margin-bottom: 24px;
+
+    cursor: pointer;
+
+    background-color: $setting-button-color;
+
+    align-items: center;
+
+    transition: box-shadow 0.08s, background-color 0.2s, color 0.2s;
+
+    &:hover {
+        box-shadow: 0px 0px 12px #ffffff99;
+    }
+
+    &.hide {
+        display: none;
+    }
+}
+
+.container.playlist > .content > .item.select {
+    background-color: #e3e3e3;
+    color: #000000;
+
+    & > .info > .description {
+        color: #333333;
+    }
+
+    & > .select {
+        border-color: #000000;
+    }
+}
+
+.container.playlist > .content > .item > img {
+    width: 72px;
+    height: 72px;
+
+    margin-left: 20px;
+
+    border-radius: 36px;
+}
+
+.container.playlist > .content > .item > .info {
+    margin: 0 20px;
+}
+
+.container.playlist > .content > .item > .info > .title {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.container.playlist > .content > .item > .info > .description {
+    font-size: 10pt;
+    color: #aaaaaa;
+    white-space: pre-line
+}
+
+.container.playlist > .content > .item > .select {
+    width: 36px;
+    height: 36px;
+
+    display: none;
+
+    margin: 0 20px;
+
+    justify-content: end;
+
+    border: 3px solid #ffffff;
+}
+
+.container.playlist > .content > .item > .select > .material-icons {
+    font-size: 36px;
+}
+
+.container.playlist > .button {
+    width: 240px;
+    height: 150px;
+    margin: 10px;
+}
+
+@media screen and (max-width: $medium-screen) {
+    .container.playlist > .content {
+        width: 460px;
+    }
+
+    .container.playlist > .content > .item {
+        width: 440px;
+    }
+
+    .container.playlist > .content > .item > .info > .title {
+        font-size: 11pt;
+        // font-weight: 600;
+    }
+
+    .container.playlist > .content > .item > .info > .description {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .container.playlist > .content {
+        width: 280px;
+    }
+
+    .container.playlist > .content > .item {
+        width: 260px;
+    }
+
+    .container.playlist > .content > .item > img {
+        display: none;
+    }
+
+    // .container.playlist > .content > .item > .info > .title {
+    //     font-size: 11pt;
+    //     // font-weight: 600;
+    // }
+
+    // .container.playlist > .content > .item > .info > .description {
+    //     font-size: 9pt;
+    //  }
+}
+
+/* ----------------
+반복 메뉴 CSS
+---------------- */
+
+.container.repeat {
+    flex-direction: column;
+}
+
+.container.repeat > .description > .value {
+    font-size: 48pt;
+    font-weight: 600;
+}
+
+.container.repeat > .description {
+    font-size: 14pt;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+// input-range.scss
+@include input-range(
+    $selector: ".container.repeat > .range",
+    $range-width: 450px,
+    $range-height: 8px,
+    $thumb-size: 24px,
+    $background-color: #ffffffaa,
+    $thumb-color: #ffffff
+);
+
+.container.repeat > .range-label {
+    display: flex;
+    width: 450px;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container.repeat > .range-label > span {
+    width: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: $small-screen) {
+    .container.repeat > .description {
+        width: 250px;
+        margin-bottom: 8px;
+        font-size: 14pt;
+    }
+
+    .container.repeat > .range {
+        width: 250px;
+    }
+
+    .container.repeat > .range-label {
+        width: 250px;
+    }
+
+    .container.repeat > .range-label > span {
+        width: 24px;
+    }
+}
+
+/* ----------------
+백그라운드 메뉴 css
+---------------- */
+
+.container.background {
+    & > .button {
+        width: 320px;
+        height: 160px;
+        margin: 10px;
+
+        transition: box-shadow 0.08s, background-color 0.2s, color 0.2s;
+
+        & > * {
+            width: 100%;
+            text-align: center;
+        }
+
+        & > .material-icons {
+            font-size: 72px;
+        }
+
+        & > .title {
+            margin: 0;
+            margin-top: 4px;
+            font-size: 16pt;
+        }
+
+        & > .description {
+            margin: 0;
+            margin-top: 4px;
+            font-size: 9pt;
+            color: #ffffff99;
+        }
+    }
+
+    & > .button.select {
+        background-color: #ffffffdd;
+        color: #000000;
+
+        font-weight: 600;
+
+        & > .description {
+            font-weight: 500;
+            color: #00000099;
+        }
+    }
+}
+
+@media screen and (max-width: $medium-screen) {
+    .container.background {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .container.background > .button {
+        width: 240px;
+        height: 120px;
+    }
+
+    .container.background > .button > .material-icons {
+        font-size: 48px;
+    }
+
+    .container.background > .button > .title {
+        margin-top: 2px;
+        font-size: 12pt;
+    }
+
+    .container.background > .button > .description {
+        margin-top: 3px;
+        font-size: 6pt;
+    }
+}

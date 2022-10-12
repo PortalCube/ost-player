@@ -1,0 +1,432 @@
+[
+    {
+        "url": "02. Introducing Stanley.mp3",
+        "title": "Introducing Stanley",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 88.53,
+        "replayGain": 0
+    },
+    {
+        "url": "03. Exploring Stanley.mp3",
+        "title": "Exploring Stanley",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 229.04,
+        "replayGain": 0
+    },
+    {
+        "url": "04. Truth & Lies.mp3",
+        "title": "Truth & Lies",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 46.55,
+        "replayGain": 0
+    },
+    {
+        "url": "05. Control.mp3",
+        "title": "Control",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 269.17,
+        "replayGain": 0
+    },
+    {
+        "url": "06. And Stanley Was Happy.mp3",
+        "title": "And Stanley Was Happy",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 111.99,
+        "replayGain": 0
+    },
+    {
+        "url": "07. Following Stanley.mp3",
+        "title": "Following Stanley",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 91.72,
+        "replayGain": 0
+    },
+    {
+        "url": "09. Showing Him The Door.mp3",
+        "title": "Showing Him The Door",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 246.05,
+        "replayGain": 0
+    },
+    {
+        "url": "10. Showing Him The Door (Panic).mp3",
+        "title": "Showing Him The Door (Panic)",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 22.05,
+        "replayGain": 0
+    },
+    {
+        "url": "11. Contemplating Stanley.mp3",
+        "title": "Contemplating Stanley",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 81.79,
+        "replayGain": 0
+    },
+    {
+        "url": "12. Informing Stanley.mp3",
+        "title": "Informing Stanley",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 98.8,
+        "replayGain": 0
+    },
+    {
+        "url": "13. Creep Tower.mp3",
+        "title": "Creep Tower",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 97.54,
+        "replayGain": 0
+    },
+    {
+        "url": "14. Thinking Theme.mp3",
+        "title": "Thinking Theme",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 62.41,
+        "replayGain": 0
+    },
+    {
+        "url": "15. Good Job. You’ve Made It To The Bottom of The Mind Control Facility. Well Done.mp3",
+        "title": "Good Job. You’ve Made It To The Bottom of The Mind Control Facility. Well Done.",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 71.78,
+        "replayGain": 0
+    },
+    {
+        "url": "16. Anticipating Stanley.mp3",
+        "title": "Anticipating Stanley",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 71.11,
+        "replayGain": 0
+    },
+    {
+        "url": "17. The Memory Zone.mp3",
+        "title": "The Memory Zone",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 216.97,
+        "replayGain": 0
+    },
+    {
+        "url": "18. C’est la Chanson sur La Mémory Zone (en Français).mp3",
+        "title": "C’est la Chanson sur La Mémory Zone (en Français)",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 156.92,
+        "replayGain": 0
+    },
+    {
+        "url": "19. New New Content.mp3",
+        "title": "New New Content",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 84.04,
+        "replayGain": 0
+    },
+    {
+        "url": "20. The Stanley Parable 2.mp3",
+        "title": "The Stanley Parable 2",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 230.03,
+        "replayGain": 0
+    },
+    {
+        "url": "21. The End Is Never The End Again.mp3",
+        "title": "The End Is Never The End Again",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 264.05,
+        "replayGain": 0
+    },
+    {
+        "url": "22. Is This A Bucket_.mp3",
+        "title": "Is This A Bucket?",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 227.03,
+        "replayGain": 0
+    },
+    {
+        "url": "23. Stanley’s New Apartment.mp3",
+        "title": "Stanley’s New Apartment",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 222.04,
+        "replayGain": 0
+    },
+    {
+        "url": "24. Showing Him The Bucket.mp3",
+        "title": "Showing Him The Bucket",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 120.03,
+        "replayGain": 0
+    },
+    {
+        "url": "25. The Bucket Destroyer Theme.mp3",
+        "title": "The Bucket Destroyer Theme",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 76.04,
+        "replayGain": 0
+    },
+    {
+        "url": "26. Gambhorra’ta, Treasurer of The Profaned Vault.mp3",
+        "title": "Gambhorra’ta, Treasurer of The Profaned Vault",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 152.03,
+        "replayGain": 0
+    },
+    {
+        "url": "27. Home Sweet Home.mp3",
+        "title": "Home Sweet Home",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 132.05,
+        "replayGain": 0
+    },
+    {
+        "url": "28. The Silly Birds Observation Facility.mp3",
+        "title": "The Silly Birds Observation Facility",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 100.05,
+        "replayGain": 0
+    },
+    {
+        "url": "29. But Nobody Came (not the one from undertale).mp3",
+        "title": "But Nobody Came (not the one from undertale)",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 54.05,
+        "replayGain": 0
+    },
+    {
+        "url": "30. Stanley’s Sacrifice.mp3",
+        "title": "Stanley’s Sacrifice",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 152.03,
+        "replayGain": 0
+    },
+    {
+        "url": "31. The Infinite Hole.mp3",
+        "title": "The Infinite Hole",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 200.05,
+        "replayGain": 0
+    },
+    {
+        "url": "32. Falling Funk.mp3",
+        "title": "Falling Funk",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 133.04,
+        "replayGain": 0
+    },
+    {
+        "url": "33. Figurine Finder Comittee.mp3",
+        "title": "Figurine Finder Comittee",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 112.04,
+        "replayGain": 0
+    },
+    {
+        "url": "34. The End Was Never The End.mp3",
+        "title": "The End Was Never The End",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 97.04,
+        "replayGain": 0
+    },
+    {
+        "url": "35. Epilogue.mp3",
+        "title": "Epilogue",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 187.04,
+        "replayGain": 0
+    },
+    {
+        "url": "36. Leaving Stanley.mp3",
+        "title": "Leaving Stanley",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 93.96,
+        "replayGain": 0
+    },
+    {
+        "url": "37. Marketing Stanley.mp3",
+        "title": "Marketing Stanley",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 60.63,
+        "replayGain": 0
+    },
+    {
+        "url": "38. Pondering Stanley.mp3",
+        "title": "Pondering Stanley",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 78.55,
+        "replayGain": 0
+    },
+    {
+        "url": "39. The Stanley Monologue (Teaser Music).mp3",
+        "title": "The Stanley Monologue (Teaser Music)",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 104.05,
+        "replayGain": 0
+    },
+    {
+        "url": "40. Not Enough Mana... I Mean Emotion! -_- (Teaser Music).mp3",
+        "title": "Not Enough Mana... I Mean Emotion! -_- (Teaser Music)",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 40.05,
+        "replayGain": 0
+    },
+    {
+        "url": "41. Broadcasting Stanley.mp3",
+        "title": "Broadcasting Stanley",
+        "bg": "ud_screenshot4.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 74.03,
+        "replayGain": 0
+    },
+    {
+        "url": "42. Celebrating Stanley.mp3",
+        "title": "Celebrating Stanley",
+        "bg": "ud_screenshot5.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 20.04,
+        "replayGain": 0
+    },
+    {
+        "url": "43. Educating Stanley.mp3",
+        "title": "Educating Stanley",
+        "bg": "ud_screenshot1.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 72.05,
+        "replayGain": 0
+    },
+    {
+        "url": "44. Narrated Wanderer (Unused).mp3",
+        "title": "Narrated Wanderer (Unused)",
+        "bg": "ud_screenshot2.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 136.05,
+        "replayGain": 0
+    },
+    {
+        "url": "45. IM CONFUS (Unused).mp3",
+        "title": "IM CONFUS (Unused)",
+        "bg": "ud_screenshot3.jpg",
+        "loopEnd": 0,
+        "loopStart": 0,
+        "type": [],
+        "duration": 128.03,
+        "replayGain": 0
+    }
+]

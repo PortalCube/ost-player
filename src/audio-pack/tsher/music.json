@@ -1,0 +1,342 @@
+[
+    {
+        "url": "bgm1kabyupbatlle.mp3",
+        "title": "1kabyupbatlle",
+        "bg": "01.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 63,
+        "replayGain": -11.04
+    },
+    {
+        "url": "bgm2gongpojjotgim.mp3",
+        "title": "2gongpojjotgim",
+        "bg": "02.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 68.664,
+        "replayGain": -4.6
+    },
+    {
+        "url": "bgm2rgongpojjotgim.mp3",
+        "title": "2rgongpojjotgim",
+        "bg": "02.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 68.664,
+        "replayGain": -7.13
+    },
+    {
+        "url": "bgm3dream.mp3",
+        "title": "3dream",
+        "bg": "03.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 56.088,
+        "replayGain": -9.52
+    },
+    {
+        "url": "bgm3rdream.mp3",
+        "title": "3rdream",
+        "bg": "04.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 55.992,
+        "replayGain": -3.65
+    },
+    {
+        "url": "bgm4gag.mp3",
+        "title": "4gag",
+        "bg": "05.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 76.3199,
+        "replayGain": -8.34
+    },
+    {
+        "url": "bgm5final.mp3",
+        "title": "5final",
+        "bg": "06.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 202.32,
+        "replayGain": -10.56
+    },
+    {
+        "url": "bgm6gugujuljul.mp3",
+        "title": "6gugujuljul",
+        "bg": "07.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 170.232,
+        "replayGain": -9.69
+    },
+    {
+        "url": "bgm7rtamsek.mp3",
+        "title": "7rtamsek",
+        "bg": "08.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 68.688,
+        "replayGain": -6.53
+    },
+    {
+        "url": "bgm7tamsek.mp3",
+        "title": "7tamsek",
+        "bg": "09.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 68.664,
+        "replayGain": -9.38
+    },
+    {
+        "url": "bgm8ktulu.mp3",
+        "title": "8ktulu",
+        "bg": "10.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 133.008,
+        "replayGain": -10.25
+    },
+    {
+        "url": "bgm9rsulpunjabek.mp3",
+        "title": "9rsulpunjabek",
+        "bg": "11.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 73.944,
+        "replayGain": -2.65
+    },
+    {
+        "url": "bgm9sulpunjabek.mp3",
+        "title": "9sulpunjabek",
+        "bg": "12.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 73.92,
+        "replayGain": -7.16
+    },
+    {
+        "url": "bgm10orgol.mp3",
+        "title": "10orgol",
+        "bg": "13.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 78.744,
+        "replayGain": -5.46
+    },
+    {
+        "url": "bgm10rorgol.mp3",
+        "title": "10rorgol",
+        "bg": "14.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 78.768,
+        "replayGain": -7.58
+    },
+    {
+        "url": "bgm11rubiworld.mp3",
+        "title": "11rubiworld",
+        "bg": "15.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 94.392,
+        "replayGain": -3.69
+    },
+    {
+        "url": "bgm11ubiworld.mp3",
+        "title": "11ubiworld",
+        "bg": "16.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 94.368,
+        "replayGain": -8.21
+    },
+    {
+        "url": "bgm12yuriworld.mp3",
+        "title": "12yuriworld",
+        "bg": "17.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 86.232,
+        "replayGain": -6.99
+    },
+    {
+        "url": "bgm13janjan.mp3",
+        "title": "13janjan",
+        "bg": "18.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 66.552,
+        "replayGain": -6.71
+    },
+    {
+        "url": "bgm13rjanjan.mp3",
+        "title": "13rjanjan",
+        "bg": "19.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 66.5759,
+        "replayGain": -7.79
+    },
+    {
+        "url": "bgm14jinsang.mp3",
+        "title": "14jinsang",
+        "bg": "20.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 76.44,
+        "replayGain": -7.55
+    },
+    {
+        "url": "bgm15chabunep.mp3",
+        "title": "15chabunep",
+        "bg": "21.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 177.912,
+        "replayGain": -8.2
+    },
+    {
+        "url": "bgm16chabun.mp3",
+        "title": "16chabun",
+        "bg": "22.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 100.08,
+        "replayGain": -9.43
+    },
+    {
+        "url": "bgm16rchabun.mp3",
+        "title": "16rchabun",
+        "bg": "20.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 100.104,
+        "replayGain": -11.9
+    },
+    {
+        "url": "bgm17chejongbettle.mp3",
+        "title": "17chejongbettle",
+        "bg": "03.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 139.728,
+        "replayGain": -10.29
+    },
+    {
+        "url": "bgm18title.mp3",
+        "title": "18title",
+        "bg": "06.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 116.424,
+        "replayGain": -7.8
+    },
+    {
+        "url": "bgm19hyunaworld.mp3",
+        "title": "19hyunaworld",
+        "bg": "23.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 96.096,
+        "replayGain": -7.01
+    },
+    {
+        "url": "bgm20sizukaokashimeu.mp3",
+        "title": "20sizukaokashimeu",
+        "bg": "24.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 131.4,
+        "replayGain": -6.05
+    },
+    {
+        "url": "bgm21sad.mp3",
+        "title": "21sad",
+        "bg": "25.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 116.928,
+        "replayGain": -6.07
+    },
+    {
+        "url": "bgm22shizukaokashi.mp3",
+        "title": "22shizukaokashi",
+        "bg": "11.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 131.088,
+        "replayGain": -5.77
+    },
+    {
+        "url": "bgm23shizuka.mp3",
+        "title": "23shizuka",
+        "bg": "23.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 174,
+        "replayGain": -5.08
+    },
+    {
+        "url": "bgm24gamdong.mp3",
+        "title": "24gamdong",
+        "bg": "14.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 112.08,
+        "replayGain": -9.03
+    },
+    {
+        "url": "bgm25hwalgi.mp3",
+        "title": "25hwalgi",
+        "bg": "07.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 100.08,
+        "replayGain": -9.64
+    },
+    {
+        "url": "bgm26lobby.mp3",
+        "title": "26lobby",
+        "bg": "26.webp",
+        "loopEnd": 0.15,
+        "loopStart": 0,
+        "type": [],
+        "duration": 152.256,
+        "replayGain": -5.37
+    }
+]

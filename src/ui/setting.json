@@ -1,0 +1,71 @@
+[
+    {
+        "id": "loop",
+        "name": "Loop",
+        "description": "음악을 얼마나 반복 시킬지 조정합니다.",
+        "list": [
+            {
+                "id": "none",
+                "name": "None",
+                "description": "반복 설정을 끕니다.",
+                "value": 1
+            },
+            {
+                "id": "low",
+                "name": "Low",
+                "description": "음악을 5분 정도 반복합니다.",
+                "value": 270,
+                "isSelect": true
+            },
+            {
+                "id": "medium",
+                "name": "Medium",
+                "description": "음악을 10분 정도 반복합니다.",
+                "value": 570
+            },
+            {
+                "id": "high",
+                "name": "High",
+                "description": "음악을 30분 정도 반복합니다.",
+                "value": 1770
+            },
+            {
+                "id": "endless",
+                "name": "Endless",
+                "description": "현재 재생 중인 음악을 무한히 반복합니다.",
+                "value": -1
+            }
+        ]
+    },
+    {
+        "id": "playlist",
+        "name": "Playlist",
+        "description": "재생할 음악 목록을 선택합니다.",
+        "list": [
+            {
+                "id": "all",
+                "name": "All",
+                "description": "플레이어에 수록된 모든 노래를 재생합니다.",
+                "isSelect": true
+            }
+        ]
+    },
+    {
+        "id": "background",
+        "name": "Background",
+        "description": "어떤 배경을 표시할 지 조정합니다.",
+        "list": [
+            {
+                "id": "song",
+                "name": "Song",
+                "description": "플레이어가 각 노래마다 지정해둔 배경이 표시됩니다.",
+                "isSelect": true
+            },
+            {
+                "id": "random",
+                "name": "Random",
+                "description": "게임 내의 모든 배경 중에서 무작위로 표시합니다."
+            }
+        ]
+    }
+]
