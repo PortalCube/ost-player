@@ -57,10 +57,11 @@ module.exports = {
     output: {
         filename: "[name].js",
         path: path.resolve(__dirname, "dist"),
-        publicPath:
-            process.env.MODE === "production"
-                ? "https://storage.prisism.io/emoi/"
-                : "auto"
+        publicPath: "auto"
+        /* publicPath:
+          process.env.MODE === "production"
+            ? "https://storage.prisism.io/emoi/"
+            : "auto", */
     },
     devServer: {
         client: {
