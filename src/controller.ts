@@ -46,7 +46,7 @@ export class Controller {
 
         const leave = () => {
             timer = setTimeout(() => {
-                //controller.classList.remove("visible");
+                controller.classList.remove("visible");
             }, 1000);
         };
 
