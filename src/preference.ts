@@ -15,7 +15,7 @@ const PREFERENCE_DEFAULT_DATA: PreferenceData = {
     preference_version: 1,
     repeat_time: 300,
     background_mode: "normal",
-    audio_pack: "TSPUD",
+    audio_pack: "TSHER",
     playlist: ["all"]
 };
 
@@ -73,7 +73,6 @@ export class Preference {
             } else {
                 this.Data[key] = (await get(key)) ?? this.Data[key];
             }
-           
         }
         console.log(this.Data);
     }

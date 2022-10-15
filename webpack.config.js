@@ -68,9 +68,7 @@ module.exports = {
         },
         static: true,
         compress: true,
-        hot: false,
-        liveReload: false,
-        allowedHosts: [],
-        port: 5900
+        liveReload: true,
+        watchFiles: ["src/*", "public/*"]
     }
 };
