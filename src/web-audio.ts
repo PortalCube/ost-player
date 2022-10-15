@@ -10,7 +10,7 @@ export type WebAudioSprite = "intro" | "loop" | "finalLoop" | "outro";
 export class WebAudio {
     #Player: Player = null;
     #EventEmitter: EventEmitter = null;
-    MasterNode: GainNode = Howler.ctx.createGain();
+    MasterNode: GainNode = this.AudioContext.createGain();
     State: WebAudioSprite = "intro";
     ID: number = null;
     PlayCount = 0;
@@ -26,17 +26,19 @@ export class WebAudio {
     }
 
     get AudioContext() {
+        //@ts-ignore
         return Howler.ctx;
     }
 
     get MasterGain() {
+        //@ts-ignore
         return Howler.masterGain;
     }
 
     get List() {
         return this.#Player.QueueManager.MusicList;
     }
-    
+
     get LoopTime() {
         return this.#Player.Preference.RepeatTime;
     }
@@ -76,8 +78,8 @@ export class WebAudio {
         this.#EventEmitter = new EventEmitter();
 
         // MasterGain의 역할을 FinalNode에게 이관
-        this.MasterNode.connect(Howler.ctx.destination);
-        Howler.masterGain.disconnect(Howler.ctx.destination);
+        this.MasterNode.connect(this.AudioContext.destination);
+        this.MasterGain.disconnect(this.AudioContext.destination);
     }
 
     PlaySprite(state: WebAudioSprite) {
@@ -87,7 +89,7 @@ export class WebAudio {
 
     Play() {
         if (this.Seek === 0) {
-            const controller =  this.#Player.Controller;
+            const controller = this.#Player.Controller;
             this.Current.Howl.on("end", this.#OnSpriteEnd.bind(this));
             this.Current.Howl.on("stop", controller.UpdatePlayButton.bind(controller));
             this.Current.Howl.on("play", controller.UpdatePlayButton.bind(controller));
