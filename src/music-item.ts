@@ -9,7 +9,7 @@ export type MusicData = {
     loopStart: number;
     type: string[];
     duration: number;
-    replayGain?: number;
+    replayGain: number;
 };
 
 export class MusicItem {
