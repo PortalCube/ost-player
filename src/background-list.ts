@@ -43,7 +43,6 @@ export class BackgroundList extends List<BackgroundItem> {
 
     Destroy() {
         this.Array.forEach((item) => item.Unload());
-        delete this.Array;
         this.Array = [];
     }
 }
