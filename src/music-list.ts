@@ -40,7 +40,6 @@ export class MusicList extends List<MusicItem> {
 
     Destroy() {
         this.Array.forEach((item) => item.Unload());
-        delete this.Array;
         this.Array = [];
     }
 }
