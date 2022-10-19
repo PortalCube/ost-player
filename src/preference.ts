@@ -71,6 +71,7 @@ export class Preference {
                     await this.Save();
                 }
             } else {
+                //@ts-ignore
                 this.Data[key] = (await get(key)) ?? this.Data[key];
             }
         }
