@@ -34,22 +34,28 @@ export class PreferenceUI {
         this.InitBackgroundSection();
         this.InitFooterSection();
 
-        $(".setting-button").addEventListener("click", this.ShowWindow.bind(this));
+        const settingButton = $(".setting-button") as HTMLButtonElement;
+        settingButton.addEventListener("click", this.ShowWindow.bind(this));
     }
 
     InitMenuSection() {
-        const select = MakeSelect(".wrapper.setting > .menu.container > .content > #menu-");
+        const select = MakeSelect(
+            ".wrapper.setting > .menu.container > .content > #menu-"
+        );
 
-        select("audio-pack").addEventListener(
+        select("audio-pack")!.addEventListener(
             "click",
             this.MoveSection.bind(this, "audio-pack")
         );
-        select("playlist").addEventListener(
+        select("playlist")!.addEventListener(
             "click",
             this.MoveSection.bind(this, "playlist")
         );
-        select("repeat").addEventListener("click", this.MoveSection.bind(this, "repeat"));
-        select("background").addEventListener(
+        select("repeat")!.addEventListener(
+            "click",
+            this.MoveSection.bind(this, "repeat")
+        );
+        select("background")!.addEventListener(
             "click",
             this.MoveSection.bind(this, "background")
         );
@@ -66,7 +72,7 @@ export class PreferenceUI {
             select: "" // this.#Player.Preference.AudioPack === id ? "check" : "" // "texture", "check", ""
         }));
 
-        const contentElement = select(".content");
+        const contentElement = select(".content") as HTMLDivElement;
 
         list.forEach((item) => {
             contentElement.appendChild(this.BuildPlaylistItemElement(item));
@@ -92,7 +98,7 @@ export class PreferenceUI {
             )
             .flat();
 
-        const contentElement = select(".content");
+        const contentElement = select(".content") as HTMLDivElement;
 
         list.forEach((item) => {
             contentElement.appendChild(this.BuildPlaylistItemElement(item));
@@ -149,10 +155,10 @@ export class PreferenceUI {
         contentElement.forEach((item) => {
             if (item.id === selectedAudioPack) {
                 item.classList.add("select");
-                item.querySelector(".material-icons").textContent = "check";
+                item.querySelector(".material-icons")!.textContent = "check";
             } else {
                 item.classList.remove("select");
-                item.querySelector(".material-icons").textContent = "";
+                item.querySelector(".material-icons")!.textContent = "";
             }
         });
         console.log("[Preference-UI] AudioPack section updated");
@@ -187,8 +193,8 @@ export class PreferenceUI {
     UpdateRepeatSection() {
         const select = MakeSelect(".wrapper.setting > .repeat.container > ");
 
-        const valueElement = select(".description > .value");
-        const textElement = select(".description > .text");
+        const valueElement = select(".description > .value") as HTMLSpanElement;
+        const textElement = select(".description > .text") as HTMLSpanElement;
         const rangeElement = select(".range") as HTMLInputElement;
 
         const repeatTime = this.#Player.Preference.RepeatTime;
@@ -299,7 +305,6 @@ export class PreferenceUI {
         const rangeElement = select(".range") as HTMLInputElement;
 
         rangeElement.addEventListener("input", (event) => {
-            
             const element = event.currentTarget as HTMLInputElement;
             this.#Player.Preference.RepeatTime = repeatRange[element.valueAsNumber];
             this.#Player.Preference.Save();
@@ -343,18 +348,18 @@ export class PreferenceUI {
 
     ShowWindow() {
         this.MoveSection("menu");
-        $(".wrapper.setting").classList.add("visible");
+        $(".wrapper.setting")!.classList.add("visible");
     }
 
     HideWindow() {
-        $(".wrapper.setting").classList.remove("visible");
+        $(".wrapper.setting")!.classList.remove("visible");
     }
 
     MoveSection(id: string) {
         $$(".wrapper.setting > .container.visible").forEach((item) =>
             item.classList.remove("visible")
         );
-        $(".wrapper.setting > .container." + id).classList.add("visible");
+        $(".wrapper.setting > .container." + id)!.classList.add("visible");
     }
 
     // ############################

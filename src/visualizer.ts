@@ -51,8 +51,8 @@ export class Visualizer {
         const masterGain = this.#WebAudio.MasterGain;
 
         // Canvas, CTX 세팅
-        this.canvas = $("canvas");
-        this.ctx = this.canvas.getContext("2d");
+        this.canvas = $("canvas") as HTMLCanvasElement;
+        this.ctx = this.canvas.getContext("2d") as CanvasRenderingContext2D;
 
         // Analyser 연결
         // MasterGain -> Analyser -> FinalNode -> destination

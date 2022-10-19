@@ -16,8 +16,8 @@ export class Controller {
     }
 
     InitFunction() {
-        const getButton = (selector: string): HTMLButtonElement => $(selector);
-        const getInput = (selector: string): HTMLInputElement => $(selector);
+        const getButton = (selector: string) => $(selector) as HTMLButtonElement;
+        const getInput = (selector: string) => $(selector) as HTMLInputElement;
         const webAudio = this.Player.WebAudio;
 
         getButton(".play-button").onclick = () =>
@@ -33,14 +33,13 @@ export class Controller {
     }
 
     InitAnimation() {
-        const controller = $(".player");
-        const canvas = $("canvas");
+        const controller = $(".player") as HTMLDivElement;
+        const canvas = $("canvas") as HTMLCanvasElement;
 
-        let timer: ReturnType<typeof setTimeout> = null;
+        let timer: ReturnType<typeof setTimeout>;
 
         const enter = () => {
             clearTimeout(timer);
-            timer = null;
             controller.classList.add("visible");
         };
 
@@ -60,7 +59,7 @@ export class Controller {
 
     InitResizeObserver() {
         const controller = $(".player") as HTMLDivElement;
-        const canvas = $("canvas");
+        const canvas = $("canvas") as HTMLCanvasElement;
 
         const observer = new ResizeObserver((entries) => {
             console.log(entries);
@@ -74,7 +73,7 @@ export class Controller {
     }
 
     UpdatePlayButton() {
-        const getButton = (selector: string): HTMLSpanElement => $(selector);
+        const getButton = (selector: string) => $(selector) as HTMLSpanElement;
         const isPlaying = this.Player.WebAudio.Current.Howl.playing();
 
         getButton(".play-button > .material-icons").textContent = isPlaying

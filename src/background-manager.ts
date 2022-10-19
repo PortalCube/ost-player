@@ -10,9 +10,9 @@ export class Background {
     get List() {
         return this.#Player.QueueManager.BackgroundList;
     }
-    
+
     Mode: BackgroundMode = "song";
-    
+
     constructor(player: Player) {
         this.#Player = player;
         this.Update();
@@ -42,7 +42,7 @@ export class Background {
     }
 
     Update() {
-        const element: HTMLDivElement = $(".background");
+        const element = $(".background") as HTMLDivElement;
         element.style.backgroundImage = `url(${this.Current.URL})`;
     }
 }
