@@ -13,9 +13,9 @@ export type MusicData = {
 };
 
 export class MusicItem {
-    Howl: Howl = null;
-    Config: AudioPack = null;
-    Data: MusicData = null;
+    Howl: Howl;
+    Config: AudioPack;
+    Data: MusicData;
 
     constructor(data: MusicData, config: AudioPack) {
         this.Data = data;

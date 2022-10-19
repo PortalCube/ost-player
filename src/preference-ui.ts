@@ -14,7 +14,7 @@ type AudioPackItem = {
 const repeatRange = [0, 180, 300, 600, 1800, 3600, -1];
 
 export class PreferenceUI {
-    #Player: Player = null;
+    #Player: Player;
 
     constructor(player: Player) {
         this.#Player = player;

@@ -14,12 +14,12 @@ const barWidth = 12;
 // AudioContext 및 MasterGain 가져오기
 
 export class Visualizer {
-    ctx: CanvasRenderingContext2D = null;
-    canvas: HTMLCanvasElement = null;
-    #WebAudio: WebAudio = null;
-    #Background: Background = null;
-    #DataArray: Uint8Array = null;
-    #Analyser: AnalyserNode = null;
+    ctx: CanvasRenderingContext2D;
+    canvas: HTMLCanvasElement;
+    #WebAudio: WebAudio;
+    #Background: Background;
+    #DataArray: Uint8Array;
+    #Analyser: AnalyserNode;
 
     get Config() {
         return this.#WebAudio.Current.Config;

@@ -8,13 +8,13 @@ import { Visualizer } from "./visualizer";
 import { AudioPackManifest } from "./audio-pack-manifest";
 
 export class Player {
-    Background: Background = null;
-    Controller: Controller = null;
-    WebAudio: WebAudio = null;
-    Visualizer: Visualizer = null;
-    QueueManager: QueueManager = null;
-    PreferenceUI: PreferenceUI = null;
-    Preference: Preference = null;
+    Background: Background;
+    Controller: Controller;
+    WebAudio: WebAudio;
+    Visualizer: Visualizer;
+    QueueManager: QueueManager;
+    PreferenceUI: PreferenceUI;
+    Preference: Preference;
     AudioPackManifest = AudioPackManifest;
 
     constructor() {

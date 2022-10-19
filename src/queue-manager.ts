@@ -8,11 +8,11 @@ import { BackgroundItem } from "./background-item";
 import { AudioPack } from "./audio-pack";
 
 export class QueueManager {
-    #Player: Player = null;
-    MusicList: MusicList = null;
-    BackgroundList: BackgroundList = null;
+    #Player: Player;
+    MusicList: MusicList;
+    BackgroundList: BackgroundList;
 
-    AudioPack: AudioPack = null;
+    AudioPack: AudioPack;
 
     constructor(player: Player) {
         this.#Player = player;

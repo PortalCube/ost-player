@@ -20,7 +20,7 @@ const PREFERENCE_DEFAULT_DATA: PreferenceData = {
 };
 
 export class Preference {
-    #Player: Player = null;
+    #Player: Player;
     Data: PreferenceData = PREFERENCE_DEFAULT_DATA;
 
     get Version() {

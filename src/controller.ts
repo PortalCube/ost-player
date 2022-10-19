@@ -2,7 +2,7 @@ import { Player } from "./player";
 import { $, $$ } from "./util";
 
 export class Controller {
-    Player: Player = null;
+    Player: Player;
 
     constructor(player: Player) {
         this.Player = player;

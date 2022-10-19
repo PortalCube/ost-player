@@ -8,11 +8,11 @@ import { Player } from "./player";
 export type WebAudioSprite = "intro" | "loop" | "finalLoop" | "outro";
 
 export class WebAudio {
-    #Player: Player = null;
-    #EventEmitter: EventEmitter = null;
+    #Player: Player;
+    #EventEmitter: EventEmitter;
     MasterNode: GainNode = this.AudioContext.createGain();
     State: WebAudioSprite = "intro";
-    ID: number = null;
+    ID: number;
     PlayCount = 0;
     BlankTime = 300;
     #BlankTimer = 0;

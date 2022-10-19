@@ -1,9 +1,9 @@
 import { AudioPack } from "./audio-pack";
 
 export class BackgroundItem {
-    Path: string = null;
-    Image: HTMLImageElement = null;
-    Config: AudioPack = null;
+    Path: string;
+    Image: HTMLImageElement;
+    Config: AudioPack;
 
     constructor(path: string, config: AudioPack) {
         this.Path = path;

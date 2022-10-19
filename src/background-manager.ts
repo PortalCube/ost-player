@@ -5,7 +5,7 @@ import { $ } from "./util";
 type BackgroundMode = "song" | "random" | "fixed";
 
 export class Background {
-    #Player: Player = null;
+    #Player: Player;
 
     get List() {
         return this.#Player.QueueManager.BackgroundList;

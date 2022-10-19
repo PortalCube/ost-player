@@ -24,10 +24,10 @@ export type AudioPackConfig = {
 };
 
 export class AudioPack {
-    Config: AudioPackConfig = null;
-    MusicList: MusicItem[] = null;
-    Playlist: Playlist[] = null;
-    BackgroundList: BackgroundItem[] = null;
+    Config: AudioPackConfig;
+    MusicList: MusicItem[];
+    Playlist: Playlist[];
+    BackgroundList: BackgroundItem[];
 
     get ID() {
         return this.Config.id;
@@ -96,8 +96,8 @@ export class AudioPack {
 }
 
 export class Playlist {
-    AudioPack: AudioPack = null;
-    Config: SettingItem = null;
+    AudioPack: AudioPack;
+    Config: SettingItem;
 
     get MusicList() {
         const list = this.AudioPack.MusicList;
