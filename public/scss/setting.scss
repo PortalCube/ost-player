@@ -277,6 +277,14 @@
 
     .container.audio-pack > .content > .item {
         width: 440px;
+        height: 75px;
+    }
+
+    .container.audio-pack > .content > .item > img {
+        width: 50px;
+        height: 50px;
+
+        border-radius: 25px;
     }
 
     .container.audio-pack > .content > .item > .info > .title {
@@ -296,6 +304,7 @@
 
     .container.audio-pack > .content > .item {
         width: 260px;
+        height: 64px;
     }
 
     .container.audio-pack > .content > .item > img {
@@ -435,6 +444,13 @@
 
     .container.playlist > .content > .item {
         width: 440px;
+        height: 80px;
+    }
+
+    .container.playlist > .content > .item > img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
     }
 
     .container.playlist > .content > .item > .info > .title {
@@ -454,6 +470,7 @@
 
     .container.playlist > .content > .item {
         width: 260px;
+        height: 70px;
     }
 
     .container.playlist > .content > .item > img {
@@ -469,9 +486,9 @@
     //     // font-weight: 600;
     // }
 
-    // .container.playlist > .content > .item > .info > .description {
-    //     font-size: 9pt;
-    //  }
+    .container.playlist > .content > .item > .info > .description {
+        font-size: 8pt;
+    }
 }
 
 /* ----------------
