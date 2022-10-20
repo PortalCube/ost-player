@@ -544,24 +544,28 @@
 
 .container.background {
     & > .button {
-        width: 320px;
-        height: 160px;
-        margin: 10px;
+        width: 240px;
+        height: 100px;
+        margin: 20px;
+
+        padding: 20px;
+
+        align-items: flex-start;
+        justify-content: flex-end;
 
         transition: box-shadow 0.08s, background-color 0.2s, color 0.2s;
 
-        & > * {
-            width: 100%;
-            text-align: center;
-        }
-
-        & > .material-icons {
-            font-size: 48px;
-        }
-
         & > .title {
             margin: 0;
-            margin-top: 4px;
+
+            display: flex;
+            align-items: center;
+
+            & > .material-icons {
+                font-size: 32px;
+                margin-right: 5px;
+            }
+
             font-size: 18pt;
         }
 
@@ -594,17 +598,18 @@
 
 @media screen and (max-width: $small-screen) {
     .container.background > .button {
-        width: 240px;
-        height: 120px;
-    }
-
-    .container.background > .button > .material-icons {
-        font-size: 48px;
+        width: 180px;
+        height: 70px;
+        padding: 15px;
+        margin: 10px;
     }
 
     .container.background > .button > .title {
-        margin-top: 2px;
         font-size: 12pt;
+
+        & > .material-icons {
+            font-size: 20px;
+        }
     }
 
     .container.background > .button > .description {
