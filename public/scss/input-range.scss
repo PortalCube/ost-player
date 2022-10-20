@@ -1,6 +1,13 @@
 @import "var.scss";
 
-@mixin input-range($selector, $range-width, $range-height: 16px, $thumb-size: 24px, $background-color: #333333, $thumb-color: #ffffff) {
+@mixin input-range(
+    $selector,
+    $range-width,
+    $range-height: 16px,
+    $thumb-size: 24px,
+    $background-color: #333333,
+    $thumb-color: #ffffff
+) {
     $thumb-width: $thumb-size;
     $thumb-height: $thumb-size;
     $thumb-shadow: 0px 0px 4px #000000bb;

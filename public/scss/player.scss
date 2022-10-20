@@ -86,10 +86,19 @@ button:focus {
 // input-range.scss
 // @include input-range($selector: ".volume-range", $range-width: 160px);
 
-@include input-range($selector: ".volume-range", $range-width: 360px, $background-color: #777777);
+@include input-range(
+    $selector: ".volume-range",
+    $range-width: 360px,
+    $background-color: #777777
+);
 
 @media screen and (max-width: $large-screen) {
-    @include input-range($selector: ".volume-range", $range-width: 280px, $thumb-size: 22px, $background-color: #777777);
+    @include input-range(
+        $selector: ".volume-range",
+        $range-width: 280px,
+        $thumb-size: 22px,
+        $background-color: #777777
+    );
 
     .button-group {
         flex-basis: 64px;
@@ -120,7 +129,13 @@ button:focus {
 }
 
 @media screen and (max-width: $medium-screen) {
-    @include input-range($selector: ".volume-range", $range-width: 240px, $range-height: 16px, $thumb-size: 20px, $background-color: #777777);
+    @include input-range(
+        $selector: ".volume-range",
+        $range-width: 240px,
+        $range-height: 16px,
+        $thumb-size: 20px,
+        $background-color: #777777
+    );
 
     .button-group {
         flex-basis: 42px;
@@ -142,9 +157,14 @@ button:focus {
     }
 }
 
-
 @media screen and (max-width: $small-screen) {
-    @include input-range($selector: ".volume-range", $range-width: 200px, $range-height: 12px, $thumb-size: 18px, $background-color: #777777);
+    @include input-range(
+        $selector: ".volume-range",
+        $range-width: 200px,
+        $range-height: 12px,
+        $thumb-size: 18px,
+        $background-color: #777777
+    );
 
     .player {
         width: 100%;

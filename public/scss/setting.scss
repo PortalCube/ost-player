@@ -26,7 +26,7 @@
         display: block;
     }
 
-    &>.container {
+    & > .container {
         display: none;
 
         width: 100%;
@@ -63,7 +63,7 @@
     }
 }
 
-.wrapper.setting>.container>.footer {
+.wrapper.setting > .container > .footer {
     position: fixed;
     display: flex;
 
@@ -78,7 +78,7 @@
     text-align: center;
 }
 
-.wrapper.setting>.container>.footer>.button {
+.wrapper.setting > .container > .footer > .button {
     width: 180px;
     height: 50px;
     line-height: 50px;
@@ -90,12 +90,12 @@
 }
 
 @media screen and (max-width: $small-screen) {
-    .wrapper.setting>.container>.footer {
+    .wrapper.setting > .container > .footer {
         width: 260px;
         font-size: 14pt;
     }
 
-    .wrapper.setting>.container>.footer>.button {
+    .wrapper.setting > .container > .footer > .button {
         width: 120px;
         height: 40px;
         line-height: 40px;
@@ -111,63 +111,71 @@
 메인 메뉴 CSS
 ----------------- */
 .container.menu {
-    &>.content {
-
+    & > .content {
         display: flex;
 
-        &>.button {
-
-            width: 240px;
-            height: 130px;
-            margin: 10px;
+        & > .button {
+            margin: 10px 20px;
+            padding: 20px;
+            background: none;
 
             flex-shrink: 0;
 
-            &>* {
-                width: 100%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            transition: background-color 0.08s;
+
+            text-shadow: $setting-text-shadow;
+
+            &:hover {
+                background-color: #00000066;
+            }
+
+            & > * {
                 text-align: center;
             }
 
-            &>.material-icons {
-                font-size: 42px;
+            & > .material-icons {
+                font-size: 28px;
             }
 
-            &>.title {
-                margin: 0;
-                margin-top: 10px;
-                font-size: 18pt;
+            & > .title {
+                margin-left: 10px;
+                font-size: 20pt;
+                font-weight: 600;
             }
         }
     }
 }
 
 @media screen and (max-width: $large-screen) {
-
-    .wrapper.setting>.container.menu {
+    .wrapper.setting > .container.menu {
         align-items: start;
         flex-flow: row nowrap;
     }
 
-    .wrapper.setting>.container.menu>.content {
+    .wrapper.setting > .container.menu > .content {
         // min-height: 780px;
         position: fixed;
-        width: 100%;
+        width: 300px;
         top: 30px;
         bottom: 100px;
         margin-top: 50px;
         align-items: center;
         overflow: auto;
         flex-flow: column nowrap;
+        align-items: flex-start;
     }
 }
-
 
 /* -----------------
 오디오 팩 CSS
 ----------------- */
-.container.audio-pack {}
+.container.audio-pack {
+}
 
-.container.audio-pack>.content {
+.container.audio-pack > .content {
     position: fixed;
     display: flex;
 
@@ -184,7 +192,7 @@
     overflow: auto;
 }
 
-.container.audio-pack>.content>.item {
+.container.audio-pack > .content > .item {
     display: flex;
 
     width: 680px;
@@ -207,20 +215,20 @@
     }
 }
 
-.container.audio-pack>.content>.item.select {
+.container.audio-pack > .content > .item.select {
     background-color: #e3e3e3;
     color: #000000;
 
-    &>.info>.description {
+    & > .info > .description {
         color: #333333;
     }
 
-    &>.select {
+    & > .select {
         border-color: #000000;
     }
 }
 
-.container.audio-pack>.content>.item>img {
+.container.audio-pack > .content > .item > img {
     width: 64px;
     height: 64px;
 
@@ -229,22 +237,22 @@
     border-radius: 32px;
 }
 
-.container.audio-pack>.content>.item>.info {
+.container.audio-pack > .content > .item > .info {
     margin-left: 20px;
     margin-right: auto;
 }
 
-.container.audio-pack>.content>.item>.info>.title {
+.container.audio-pack > .content > .item > .info > .title {
     font-size: 16pt;
     font-weight: 500;
 }
 
-.container.audio-pack>.content>.item>.info>.description {
+.container.audio-pack > .content > .item > .info > .description {
     font-size: 10pt;
     color: #aaaaaa;
 }
 
-.container.audio-pack>.content>.item>.select {
+.container.audio-pack > .content > .item > .select {
     width: 36px;
     height: 36px;
 
@@ -257,49 +265,49 @@
     border: 3px solid #ffffff;
 }
 
-.container.audio-pack>.content>.item>.select>.material-icons {
+.container.audio-pack > .content > .item > .select > .material-icons {
     font-size: 36px;
 }
 
-.container.audio-pack>.button {
+.container.audio-pack > .button {
     width: 240px;
     height: 150px;
     margin: 10px;
 }
 
 @media screen and (max-width: $medium-screen) {
-    .container.audio-pack>.content {
+    .container.audio-pack > .content {
         width: 460px;
     }
 
-    .container.audio-pack>.content>.item {
+    .container.audio-pack > .content > .item {
         width: 440px;
     }
 
-    .container.audio-pack>.content>.item>.info>.title {
+    .container.audio-pack > .content > .item > .info > .title {
         font-size: 11pt;
         // font-weight: 600;
     }
 
-    .container.audio-pack>.content>.item>.info>.description {
+    .container.audio-pack > .content > .item > .info > .description {
         font-size: 9pt;
     }
 }
 
 @media screen and (max-width: $small-screen) {
-    .container.audio-pack>.content {
+    .container.audio-pack > .content {
         width: 280px;
     }
 
-    .container.audio-pack>.content>.item {
+    .container.audio-pack > .content > .item {
         width: 260px;
     }
 
-    .container.audio-pack>.content>.item>img {
+    .container.audio-pack > .content > .item > img {
         display: none;
     }
 
-    .container.audio-pack>.content>.item>.info {
+    .container.audio-pack > .content > .item > .info {
         margin-left: 15px;
     }
 
@@ -316,9 +324,10 @@
 /* -----------------
 플레이리스트 CSS
 ----------------- */
-.container.playlist {}
+.container.playlist {
+}
 
-.container.playlist>.content {
+.container.playlist > .content {
     position: fixed;
     display: flex;
 
@@ -335,7 +344,7 @@
     overflow: auto;
 }
 
-.container.playlist>.content>.item {
+.container.playlist > .content > .item {
     display: flex;
 
     width: 680px;
@@ -364,20 +373,20 @@
     }
 }
 
-.container.playlist>.content>.item.select {
+.container.playlist > .content > .item.select {
     background-color: #e3e3e3;
     color: #000000;
 
-    &>.info>.description {
+    & > .info > .description {
         color: #333333;
     }
 
-    &>.select {
+    & > .select {
         border-color: #000000;
     }
 }
 
-.container.playlist>.content>.item>img {
+.container.playlist > .content > .item > img {
     width: 72px;
     height: 72px;
 
@@ -386,22 +395,22 @@
     border-radius: 36px;
 }
 
-.container.playlist>.content>.item>.info {
+.container.playlist > .content > .item > .info {
     margin: 0 20px;
 }
 
-.container.playlist>.content>.item>.info>.title {
+.container.playlist > .content > .item > .info > .title {
     font-size: 16pt;
     font-weight: 500;
 }
 
-.container.playlist>.content>.item>.info>.description {
+.container.playlist > .content > .item > .info > .description {
     font-size: 10pt;
     color: #aaaaaa;
-    white-space: pre-line
+    white-space: pre-line;
 }
 
-.container.playlist>.content>.item>.select {
+.container.playlist > .content > .item > .select {
     width: 36px;
     height: 36px;
 
@@ -414,49 +423,49 @@
     border: 3px solid #ffffff;
 }
 
-.container.playlist>.content>.item>.select>.material-icons {
+.container.playlist > .content > .item > .select > .material-icons {
     font-size: 36px;
 }
 
-.container.playlist>.button {
+.container.playlist > .button {
     width: 240px;
     height: 150px;
     margin: 10px;
 }
 
 @media screen and (max-width: $medium-screen) {
-    .container.playlist>.content {
+    .container.playlist > .content {
         width: 460px;
     }
 
-    .container.playlist>.content>.item {
+    .container.playlist > .content > .item {
         width: 440px;
     }
 
-    .container.playlist>.content>.item>.info>.title {
+    .container.playlist > .content > .item > .info > .title {
         font-size: 11pt;
         // font-weight: 600;
     }
 
-    .container.playlist>.content>.item>.info>.description {
+    .container.playlist > .content > .item > .info > .description {
         font-size: 9pt;
     }
 }
 
 @media screen and (max-width: $small-screen) {
-    .container.playlist>.content {
+    .container.playlist > .content {
         width: 280px;
     }
 
-    .container.playlist>.content>.item {
+    .container.playlist > .content > .item {
         width: 260px;
     }
 
-    .container.playlist>.content>.item>img {
+    .container.playlist > .content > .item > img {
         display: none;
     }
 
-    .container.playlist>.content>.item>.info {
+    .container.playlist > .content > .item > .info {
         margin-left: 15px;
     }
 
@@ -478,54 +487,58 @@
     flex-direction: column;
 }
 
-.container.repeat>.description>.value {
+.container.repeat > .description > .value {
     font-size: 48pt;
     font-weight: 600;
+    text-shadow: $setting-text-shadow;
 }
 
-.container.repeat>.description {
+.container.repeat > .description {
     font-size: 14pt;
     width: 450px;
     margin-bottom: 10px;
 }
 
 // input-range.scss
-@include input-range($selector: ".container.repeat > .range",
+@include input-range(
+    $selector: ".container.repeat > .range",
     $range-width: 450px,
     $range-height: 8px,
     $thumb-size: 24px,
     $background-color: #ffffffaa,
-    $thumb-color: #ffffff);
+    $thumb-color: #ffffff
+);
 
-.container.repeat>.range-label {
+.container.repeat > .range-label {
     display: flex;
     width: 450px;
     margin-top: 12px;
     align-items: center;
     justify-content: space-between;
+    text-shadow: $setting-text-shadow;
 }
 
-.container.repeat>.range-label>span {
+.container.repeat > .range-label > span {
     width: 24px;
     text-align: center;
 }
 
 @media screen and (max-width: $small-screen) {
-    .container.repeat>.description {
+    .container.repeat > .description {
         width: 250px;
         margin-bottom: 8px;
         font-size: 14pt;
     }
 
-    .container.repeat>.range {
+    .container.repeat > .range {
         width: 250px;
     }
 
-    .container.repeat>.range-label {
+    .container.repeat > .range-label {
         width: 250px;
     }
 
-    .container.repeat>.range-label>span {
+    .container.repeat > .range-label > span {
         width: 24px;
     }
 }
@@ -535,29 +548,29 @@
 ---------------- */
 
 .container.background {
-    &>.button {
+    & > .button {
         width: 320px;
         height: 160px;
         margin: 10px;
 
         transition: box-shadow 0.08s, background-color 0.2s, color 0.2s;
 
-        &>* {
+        & > * {
             width: 100%;
             text-align: center;
         }
 
-        &>.material-icons {
+        & > .material-icons {
             font-size: 48px;
         }
 
-        &>.title {
+        & > .title {
             margin: 0;
             margin-top: 4px;
             font-size: 18pt;
         }
 
-        &>.description {
+        & > .description {
             margin: 0;
             margin-top: 4px;
             font-size: 9pt;
@@ -565,13 +578,13 @@
         }
     }
 
-    &>.button.select {
+    & > .button.select {
         background-color: #ffffffdd;
         color: #000000;
 
         font-weight: 600;
 
-        &>.description {
+        & > .description {
             font-weight: 500;
             color: #00000099;
         }
@@ -585,21 +598,21 @@
 }
 
 @media screen and (max-width: $small-screen) {
-    .container.background>.button {
+    .container.background > .button {
         width: 240px;
         height: 120px;
     }
 
-    .container.background>.button>.material-icons {
+    .container.background > .button > .material-icons {
         font-size: 48px;
     }
 
-    .container.background>.button>.title {
+    .container.background > .button > .title {
         margin-top: 2px;
         font-size: 12pt;
     }
 
-    .container.background>.button>.description {
+    .container.background > .button > .description {
         margin-top: 3px;
         font-size: 6pt;
     }
