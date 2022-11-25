@@ -16,7 +16,10 @@ export class QueueManager {
 
     constructor(player: Player) {
         this.#Player = player;
-        this.SetAudioPack(this.#Player.Preference.AudioPack, this.#Player.Preference.Playlist);
+        this.SetAudioPack(
+            this.#Player.Preference.AudioPack,
+            this.#Player.Preference.Playlist
+        );
     }
 
     SetAudioPack(audioPackId: string, playlist: string[] = ["all"]) {
@@ -53,7 +56,21 @@ export class QueueManager {
         if (this.#Player.Preference.BackgroundMode === "shuffle") {
             this.SetBackgroundList(this.AudioPack.BackgroundList, true);
         } else {
-            this.SetBackgroundList(this.MusicList.Backgrounds, false);
+            // 지정된 이미지가 없는 노래는 배경 목록에서 랜덤하게 뽑아오기
+            const list = this.MusicList.Backgrounds.map((item) => {
+                if (item.Path === "") {
+                    let index = Math.floor(
+                        Math.random() * this.AudioPack.BackgroundList.length
+                    );
+                    return new BackgroundItem(
+                        this.AudioPack.BackgroundList[index].Path,
+                        item.Config
+                    );
+                }
+                return item;
+            });
+
+            this.SetBackgroundList(list, false);
             this.BackgroundList.Index = this.MusicList.Index;
             this.#Player.Background?.Update();
         }
