@@ -15,7 +15,7 @@ const PREFERENCE_DEFAULT_DATA: PreferenceData = {
     preference_version: 1,
     repeat_time: 300,
     background_mode: "normal",
-    audio_pack: "TSHER",
+    audio_pack: "BLUAC",
     playlist: ["all"]
 };
 

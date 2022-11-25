@@ -79,7 +79,7 @@ const TSHER_AUDIO_PACK = new AudioPack(TSHER_CONFIG, TSHER_MUSIC, TSHER_BACKGROU
 // const SVNBT_AUDIO_PACK = new AudioPack(SVNBT_CONFIG, SVNBT_MUSIC, SVNBT_BACKGROUND);
 
 // ####################
-// 블루 아카이브 (TBA)
+// 블루 아카이브
 // ####################
 
 import BLUAC_CONFIG from "./audio-pack/bluac/config.json";
