@@ -28,7 +28,7 @@ import IMSSC_BACKGROUND from "./audio-pack/imssc/background.json";
 
 const IMSSC_AUDIO_PACK = new AudioPack(IMSSC_CONFIG, IMSSC_MUSIC, IMSSC_BACKGROUND);
 
-// #################### 
+// ####################
 // 당기여 시리즈
 // ####################
 
@@ -82,11 +82,11 @@ const TSHER_AUDIO_PACK = new AudioPack(TSHER_CONFIG, TSHER_MUSIC, TSHER_BACKGROU
 // 블루 아카이브 (TBA)
 // ####################
 
-// import BLUAC_CONFIG from "./audio-pack/bluac/config.json";
-// import BLUAC_MUSIC from "./audio-pack/bluac/music.json";
-// import BLUAC_BACKGROUND from "./audio-pack/bluac/background.json";
+import BLUAC_CONFIG from "./audio-pack/bluac/config.json";
+import BLUAC_MUSIC from "./audio-pack/bluac/music.json";
+import BLUAC_BACKGROUND from "./audio-pack/bluac/background.json";
 
-// const BLUAC_AUDIO_PACK = new AudioPack(BLUAC_CONFIG, BLUAC_MUSIC, BLUAC_BACKGROUND);
+const BLUAC_AUDIO_PACK = new AudioPack(BLUAC_CONFIG, BLUAC_MUSIC, BLUAC_BACKGROUND);
 
 // ####################
 // 언더테일 (TBA)
@@ -122,27 +122,23 @@ const TSHER_AUDIO_PACK = new AudioPack(TSHER_CONFIG, TSHER_MUSIC, TSHER_BACKGROU
 //  (TBA)
 // ####################
 
+// ####################
+//  (TBA)
+// ####################
 
 // ####################
 //  (TBA)
 // ####################
 
-
 // ####################
 //  (TBA)
 // ####################
-
-
-// ####################
-//  (TBA)
-// ####################
-
-
 
 export const AudioPackManifest = {
     [IMSSC_AUDIO_PACK.ID]: IMSSC_AUDIO_PACK,
     [TSFOX_AUDIO_PACK.ID]: TSFOX_AUDIO_PACK,
     [OMORI_AUDIO_PACK.ID]: OMORI_AUDIO_PACK,
     [TSPUD_AUDIO_PACK.ID]: TSPUD_AUDIO_PACK,
-    [TSHER_AUDIO_PACK.ID]: TSHER_AUDIO_PACK
+    [TSHER_AUDIO_PACK.ID]: TSHER_AUDIO_PACK,
+    [BLUAC_AUDIO_PACK.ID]: BLUAC_AUDIO_PACK
 };
