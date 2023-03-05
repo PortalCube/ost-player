@@ -15,7 +15,7 @@ const PREFERENCE_DEFAULT_DATA: PreferenceData = {
     preference_version: 1,
     repeat_time: 300,
     background_mode: "normal",
-    audio_pack: "BLUAC",
+    audio_pack: "TSPUD",
     playlist: ["all"]
 };
 

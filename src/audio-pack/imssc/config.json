@@ -3,7 +3,7 @@
     "info": {
         "title": "아이돌마스터 샤이니 컬러즈",
         "short_title": "샤니마스",
-        "description": "특유의 \"에모이\" 감수성이 넘치는 아이돌마스터 샤이니 컬러즈 OST입니다."
+        "description": "샤니마스 OST 목록."
     },
     "screen": {
         "width": 1136,
@@ -17,28 +17,28 @@
         {
             "id": "emoi",
             "name": "에모이",
-            "description": "감성을 자극하는 샤니마스의 명곡들을 모아보았습니다. 에모이를 한 가득 느껴보세요.",
+            "description": "",
             "isSelect": true
         },
         {
             "id": "game",
             "name": "게임",
-            "description": "게임의 메뉴 화면이나 공통 커뮤에서 자주 등장하는 노래를 모았습니다."
+            "description": ""
         },
         {
             "id": "bright",
             "name": "밝음",
-            "description": "마치 눈부시게 빛나는 카호같은 밝은 노래들입니다."
+            "description": ""
         },
         {
             "id": "dark",
             "name": "어두움",
-            "description": "에모이가 넘치다 못해 폭주하여 깊은 어둠이 우러 나오는 노래들입니다."
+            "description": ""
         },
         {
             "id": "all",
             "name": "전체",
-            "description": "샤이니 컬러즈의 모든 배경 음악들을 담았습니다."
+            "description": ""
         }
     ],
     "musicBaseUrl": "https://storage.prisism.io/sc/",

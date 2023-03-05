@@ -1,5 +1,8 @@
 import { AudioPack } from "./audio-pack";
 
+
+// audio pack 만들때 쓰는 코드
+// 일반 유저는 사용할 일이 없음
 function CreateAudioPackCode(id: string) {
     const upperId = id.toUpperCase();
     const lowerId = id.toLowerCase();
@@ -69,16 +72,6 @@ import TSHER_BACKGROUND from "./audio-pack/tsher/background.json";
 const TSHER_AUDIO_PACK = new AudioPack(TSHER_CONFIG, TSHER_MUSIC, TSHER_BACKGROUND);
 
 // ####################
-// 7Beat (TBA)
-// ####################
-
-// import SVNBT_CONFIG from "./audio-pack/svnbt/config.json";
-// import SVNBT_MUSIC from "./audio-pack/svnbt/music.json";
-// import SVNBT_BACKGROUND from "./audio-pack/svnbt/background.json";
-
-// const SVNBT_AUDIO_PACK = new AudioPack(SVNBT_CONFIG, SVNBT_MUSIC, SVNBT_BACKGROUND);
-
-// ####################
 // 블루 아카이브
 // ####################
 
@@ -87,52 +80,6 @@ import BLUAC_MUSIC from "./audio-pack/bluac/music.json";
 import BLUAC_BACKGROUND from "./audio-pack/bluac/background.json";
 
 const BLUAC_AUDIO_PACK = new AudioPack(BLUAC_CONFIG, BLUAC_MUSIC, BLUAC_BACKGROUND);
-
-// ####################
-// 언더테일 (TBA)
-// ####################
-
-// import UNTLE_CONFIG from "./audio-pack/untle/config.json";
-// import UNTLE_MUSIC from "./audio-pack/untle/music.json";
-// import UNTLE_BACKGROUND from "./audio-pack/untle/background.json";
-
-// const UNTLE_AUDIO_PACK = new AudioPack(UNTLE_CONFIG, UNTLE_MUSIC, UNTLE_BACKGROUND);
-
-// ####################
-// 델타룬 (TBA)
-// ####################
-
-// import DELRN_CONFIG from "./audio-pack/delrn/config.json";
-// import DELRN_MUSIC from "./audio-pack/delrn/music.json";
-// import DELRN_BACKGROUND from "./audio-pack/delrn/background.json";
-
-// const DELRN_AUDIO_PACK = new AudioPack(DELRN_CONFIG, DELRN_MUSIC, DELRN_BACKGROUND);
-
-// ####################
-// 메이플 (TBA)
-// ####################
-
-// import MAPLE_CONFIG from "./audio-pack/maple/config.json";
-// import MAPLE_MUSIC from "./audio-pack/maple/music.json";
-// import MAPLE_BACKGROUND from "./audio-pack/maple/background.json";
-
-// const MAPLE_AUDIO_PACK = new AudioPack(MAPLE_CONFIG, MAPLE_MUSIC, MAPLE_BACKGROUND);
-
-// ####################
-//  (TBA)
-// ####################
-
-// ####################
-//  (TBA)
-// ####################
-
-// ####################
-//  (TBA)
-// ####################
-
-// ####################
-//  (TBA)
-// ####################
 
 export const AudioPackManifest = {
     [IMSSC_AUDIO_PACK.ID]: IMSSC_AUDIO_PACK,

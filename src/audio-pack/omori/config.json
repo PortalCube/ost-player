@@ -3,7 +3,7 @@
     "info": {
         "title": "OMORI",
         "short_title": "OMORI",
-        "description": "WELCOME TO WHITE SPACE"
+        "description": "OMORI"
     },
     "screen": {
         "width": 1024,
@@ -17,28 +17,28 @@
         {
             "id": "recommend",
             "name": "추천",
-            "description": "오모리가 자주듣는 믹스 테이프.",
+            "description": "",
             "isSelect": true
         },
         {
             "id": "headspace",
             "name": "꿈나라",
-            "description": "안녕, 오모리!! 다들 네가 언제 오나 기다리고 있었어."
+            "description": ""
         },
         {
             "id": "faraway",
             "name": "패러웨이",
-            "description": "THREE DAYS LEFT"
+            "description": ""
         },
         {
             "id": "blackspace",
             "name": "BLACK SPCAE",
-            "description": "WELCOME TO BLACK SPACE"
+            "description": "(기괴주의)"
         },
         {
             "id": "all",
             "name": "전체",
-            "description": "Waiting for something to happen?"
+            "description": ""
         }
     ],
     "musicBaseUrl": "https://storage.prisism.io/lab/ost-player/omori/",
