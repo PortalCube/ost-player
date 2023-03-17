@@ -25,7 +25,7 @@ export function Lerp(a: number, b: number, t: number) {
 
 export function ConvertTime(second: number) {
     const toString = (value: number) => Math.floor(value).toString().padStart(2, "0");
-    if (typeof second !== "number" || second === NaN) {
+    if (typeof second !== "number" || Number.isNaN(second)) {
         return "00:00";
     } else {
         return `${toString(second / 60)}:${toString(second % 60)}`;
